@@ -170,7 +170,7 @@ nav ul {
 .color3 .icons{
     position: relative;
     color:black;
-    top: 400px;
+    top: 165px;
     height: 110px;
     left: 185px;
     width: 100px;
@@ -179,8 +179,8 @@ nav ul {
 h4{
     color: var(--purple);
     position: absolute;
-    top: 2045px;
-    left: 140px;
+    top: 2050px;
+    left: 111px;
     width: 12%;
     
 }
@@ -188,9 +188,10 @@ h4{
 .color3 p{
     color: var(--pink);
     position: absolute;
-    top: 2120px ;
-    left: 135px ;
-    width: 16%;
+    top: 2100px ;
+    left: 130px ;
+    width: 8%;
+    font-size: 16px;
 }
 
 .color4 img{
@@ -202,13 +203,77 @@ h4{
 }
 
 .color4 .icons1{
-    position: relative;
+    position: absolute;
     color:black;
-    top: 400px;
+    top: 2030px;
     height: 110px;
-    left: 545px;
+    left: 535px;
     width: 100px;
 }
+
+h5{
+    color: var(--purple);
+    position: absolute;
+    top: 2045px;
+    left: 460px;
+    width: 12%;
+    font-size: 16px;
+}
+.color4 p{
+    color: var(--pink);
+    position: absolute;
+    top: 2100px ;
+    left: 490px ;
+    width: 8%;
+    font-size: 16px;
+}
+
+.color5 img{
+    position:absolute;
+    top:2000px;
+    height: 200;
+    left: 800px;
+    width: 197px;
+
+}
+
+.color5 .icons2{
+    position: absolute;
+    color:black;
+    top: 2030px;
+    height: 110px;
+    left: 880px;
+    width: 100px;
+}
+
+
+h6{
+    color: var(--purple);
+    position: absolute;
+    top: 2030px;
+    left: 810px;
+    width: 12%;
+    font-size: 16px;
+
+}
+.color5 p{
+    color: var(--pink);
+    position: absolute;
+    top: 2100px ;
+    left: 820px ;
+    width: 8%;
+    font-size: 16px;
+
+}
+
+
+/* .color6 .h6{
+    left: 2000px;
+    font-weight: 400;
+    color: var(--hellow);
+
+} */
+
 
 @media (max-width:767px) {
     header .container{
@@ -251,4 +316,5 @@ h4{
    
 
 }
+
 
