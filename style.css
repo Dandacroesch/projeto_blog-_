@@ -119,7 +119,7 @@ nav ul a svg {
 .about-me .img-container {
     width: 50%;
     text-align: center;
-    position: relative;
+    position: static;
 }
 
 .about-me .img-container img {
@@ -133,19 +133,6 @@ nav ul {
     display: flex;
     justify-content: space-around;
 }
-
-/* .color{
-    position: absolute;
-    width: 323.49px;
-    height: 209px;
-    left: 659.55px;
-    top: -134px;
-   }
-.color > div{
-    background: #F9CEEE;
-    transform: rotate(43.76deg);
-   
-} */
 .color img{
     position: absolute;
     top: 0px;
@@ -181,10 +168,8 @@ h4{
     position: absolute;
     top: 2050px;
     left: 111px;
-    width: 12%;
-    
+    width: 12%;   
 }
-
 .color3 p{
     color: var(--pink);
     position: absolute;
@@ -193,7 +178,6 @@ h4{
     width: 8%;
     font-size: 16px;
 }
-
 .color4 img{
     position:absolute;
     top:2000px;
@@ -201,7 +185,6 @@ h4{
     left: 450px;
     width: 197px;
 }
-
 .color4 .icons1{
     position: absolute;
     color:black;
@@ -227,7 +210,6 @@ h5{
     width: 8%;
     font-size: 16px;
 }
-
 .color5 img{
     position:absolute;
     top:2000px;
@@ -236,7 +218,6 @@ h5{
     width: 197px;
 
 }
-
 .color5 .icons2{
     position: absolute;
     color:black;
@@ -245,8 +226,6 @@ h5{
     left: 880px;
     width: 100px;
 }
-
-
 h6{
     color: var(--purple);
     position: absolute;
@@ -254,7 +233,6 @@ h6{
     left: 810px;
     width: 12%;
     font-size: 16px;
-
 }
 .color5 p{
     color: var(--pink);
@@ -265,15 +243,195 @@ h6{
     font-size: 16px;
 
 }
+.color6 img{
+    position:absolute;
+    top:2755px;
+    height: 200;
+    left: 103px;
+    width: 197px;
+}
+.color6 h6{
+    color: var(--purple);
+    position: absolute;
+    top: 2755px;
+    left: 155px;
+    width: 12%;
+    font-size: 20px;
 
+}
+.color6 p{
+    color: var(--pink);
+    position: absolute;
+    top: 2825px;
+    left: 120px;
+    width: 8%;
+    font-size: 16px;
+}
 
-/* .color6 .h6{
-    left: 2000px;
-    font-weight: 400;
+.color7 img{
+    position:absolute;
+    top:2755px;
+    height: 200;
+    left: 450px;
+    width: 197px;
+}
+.color7 h6{
+    color: var(--purple);
+    position: absolute;
+    top: 2755px;
+    left: 500px;
+    width: 12%;
+    font-size: 20px;
+}
+.color7 p{
+    color: var(--pink);
+    position: absolute;
+    top: 2825px;
+    left: 480px;
+    width: 8%;
+    font-size: 16px;
+}
+.color8 img{
+    position:absolute;
+    top:2755px;
+    height: 200;
+    left: 800px;
+    width: 197px;
+}
+.color8 h6{
+    color: var(--purple);
+    position: absolute;
+    top: 2755px;
+    left: 855px;
+    width: 12%;
+    font-size: 20px;
+}
+.color8 p{
+    color: var(--pink);
+    position: absolute;
+    top: 2825px;
+    left: 825px;
+    width: 7%;
+    font-size: 16px;
+}
+.color9 h6{
     color: var(--hellow);
+    position: center;
+    font-weight: 400;
+    top: 1800;
+    font-size: 24px;
+    width: 7%;
+    left: 500px;
+}
+.color10 h6{
+    color: var(--hellow);
+    position: center;
+    font-weight: 400;
+    top: 2550;
+    font-size: 24px;
+    width: 7%;
+    left: 500px;
+}
 
-} */
+.color11{
+    position: relative;
+    top: 1550px;
+    left: 50px;
+    padding-right: 5px;
+    max-width: 950px;
 
+}
+.color12 p{
+    color: white;
+    position: relative;
+    font-size: 18px;
+    top: 1240px;
+    left: 940;
+}
+.color12 button{
+    position: relative;
+    font-size: 18px;
+    top: 1240px;
+    left: 930;
+}
+.color12 .icons5{
+    color: black;
+    position: relative;
+    font-size: 18px;
+    top: 1210px;
+    left: 930;
+}
+
+.color13 p{
+    color: var(--hellow);
+    position: absolute;
+    font-weight: 500;
+    top: 4150;
+    font-size: 30px;
+    left: 600px;
+}
+.color14 p{
+    color: white;
+    position: absolute;
+    font-weight: 500;
+    top: 4210;
+    font-size: 18px;
+    left: 375px;
+}
+.color14 button{
+    position: absolute;
+    top: 4280px;
+    left: 665px;
+}
+.color15 img{
+    position: absolute;
+    top: 5070px;
+    width: 400PX;
+    left: 0px;
+}
+.color16 img{
+    position: absolute;
+    top: 5000px;
+    width: 400px;
+    left: 1650px;
+}
+.color17 .icons7{
+    color: black;
+    position: absolute;
+    top: 5200px;
+    left: 600;
+    width: 700PX;
+}
+.color18 .icons8{
+    color: black;
+    position: absolute;
+    top: 5200px;
+    left: 800;
+    width: 700PX;
+}
+.color19 .icons9{
+    color: black;
+    position: absolute;
+    top: 5200px;
+    left: 1000;
+    width: 700PX;
+} 
+.color20 p{
+    color: white;
+    position: absolute;
+    top: 5300px;
+    left: 690;
+    width: 700PX;
+}
+
+.color21 p{
+    color: var(--hellow);
+    position: absolute;
+    font-weight: 500;
+    top: 3250;
+    font-size: 30px;
+    left: 600px;
+}
 
 @media (max-width:767px) {
     header .container{
