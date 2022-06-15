@@ -155,7 +155,7 @@ nav ul {
 }
 
 .color3 .icons{
-    position: absolute;
+    position: relative;
     color:black;
     top: 165px;
     height: 110px;
